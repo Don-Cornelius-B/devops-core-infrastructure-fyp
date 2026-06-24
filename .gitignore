@@ -1,0 +1,31 @@
+# === OS Temporary Files ===
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# === IDEs and Automated Dev Tools ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.cursor/
+
+# === Kubernetes & Local Cluster Artifacts ===
+*.log
+.kube/
+config
+.minikube/
+*.tmp
+*.bak
+
+# === Secret & Credential Safeguards ===
+*.pem
+*.key
+*.pub
+secret.yaml
+*secret*.yaml
+.env
